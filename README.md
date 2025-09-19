@@ -6,14 +6,6 @@ A C program that simulates the basic functions of an ATM machine for a single us
 - Withdraw Money: Remove funds from the account (with validation, positive amount only)
 - Exit Program: Terminate the application
 
-# Technical Implementation
-- Program Structure
-atm_simulation/
-├── main.c          # User interface and program flow
-├── operation.c     # Business logic implementation
-├── operation.h     # Function prototypes and declarations
-└── README.md       # Documentation
-
 # Key Programming Concepts Demonstrated
 - Variables and Data Types: Proper use of double for monetary values
 - Control Structures: while loops, switch statements, if-else - conditions
