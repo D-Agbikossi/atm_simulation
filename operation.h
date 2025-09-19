@@ -1,14 +1,17 @@
+/*
+Header file with function prototypes.
+Ensures proper interface between main program and business logic.
+
+Author: Denaton Agbikossi
+*/
+
 #ifndef OPERATION_H       
 #define OPERATION_H
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-
 /* Function declarations (prototypes) */
-void check_balance();
-void deposit();
-void withdraw();
-void exit_program();
+double check_balance(void);
+double deposit(void);
+double withdraw(void);
+void exit_program(void);
 
 #endif
